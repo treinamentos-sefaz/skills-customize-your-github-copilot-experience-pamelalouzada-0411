@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "functions-and-modules",
+      "title": "Functions and Modules",
+      "description": "Creating functions with parameters and return values, default arguments, and organizing code into modules",
+      "path": "assignments/functions-and-modules",
+      "dueDate": "2026-11-11",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }

@@ -1,19 +1,35 @@
+# 📘 Atividade: Jogo da Forca
 
-# 🎮 Desafio: Jogo da Forca
+## 🎯 Objetivo
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+Nesta atividade, você vai construir um jogo da Forca em Python para praticar manipulação de strings, loops e condicionais. Ao final, você terá um jogo interativo com regras claras de vitória e derrota.
 
-## 🎯 O Que Você Vai Construir
+## 📝 Tarefas
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+### 🛠️	Preparar a palavra secreta e o estado inicial
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+#### Descrição
+Crie a base do jogo definindo uma lista de palavras possíveis, escolhendo uma palavra secreta aleatoriamente e exibindo o progresso inicial com traços ou sublinhados.
 
-## ✅ Requisitos Obrigatórios
+#### Requisitos
+O programa concluído deve:
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+- Definir uma lista predefinida com pelo menos 5 palavras.
+- Selecionar uma palavra secreta aleatoriamente dessa lista.
+- Exibir a palavra oculta no formato `_ _ _` (um marcador para cada letra).
+- Definir um número inicial de tentativas incorretas restantes.
+
+
+### 🛠️	Implementar a lógica de jogo
+
+#### Descrição
+Implemente o loop principal para receber palpites de letras, atualizar o estado do jogo e finalizar quando o jogador vencer ou perder.
+
+#### Requisitos
+O programa concluído deve:
+
+- Solicitar uma letra por rodada e validar a entrada do usuário.
+- Atualizar a exibição da palavra quando a letra existir na palavra secreta.
+- Reduzir tentativas apenas quando o palpite estiver incorreto.
+- Encerrar o jogo com mensagem de vitória ao revelar toda a palavra.
+- Encerrar o jogo com mensagem de derrota quando as tentativas acabarem.
